@@ -1,3 +1,9 @@
+/* font family
+font-family: Lora, sans-serif;   
+
+
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -9,6 +15,15 @@ html{
     max-width: 1400px;
     scroll-behavior: smooth;
 }
+
+
+/* ******************* font family ***************** */
+
+@font-face {
+    font-family: Lora ;
+    src: url("../fonts/Lora/Lora-Italic-VariableFont_wght.ttf");
+}
+
 
 
 

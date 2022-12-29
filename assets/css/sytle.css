@@ -1,6 +1,10 @@
 /* font family
+
+Überschriften usw
 font-family: Lora, sans-serif;   
 
+restliche Text
+font-family: Work, sans-serif;   
 
 */
 
@@ -24,7 +28,10 @@ html{
     src: url("../fonts/Lora/Lora-Italic-VariableFont_wght.ttf");
 }
 
-
+@font-face {
+    font-family: Work;
+    src: url("../fonts/Work_Sans/WorkSans-Italic-VariableFont_wght.ttf");
+}
 
 
 /* ******************** header ********************* */

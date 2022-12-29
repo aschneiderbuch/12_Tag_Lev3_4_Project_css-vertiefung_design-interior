@@ -33,6 +33,20 @@ html{
     src: url("../fonts/Work_Sans/WorkSans-Italic-VariableFont_wght.ttf");
 }
 
+/* ******************** body *********************** */
+/* ******************** body *********************** */
+/* ******************** body *********************** */
+
+body{
+    font-family: Work, sans-serif;   /* * für alle Schriften */
+    background-color: #2e2e2e;
+}
+
+.schriftart--lora{
+    font-family: Lora, sans-serif;   
+
+}
+
 
 /* ******************** header ********************* */
 

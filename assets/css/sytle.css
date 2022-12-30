@@ -49,4 +49,107 @@ body{
 
 
 /* ******************** header ********************* */
+/* ******************** header ********************* */
+/* ******************** header ********************* */
 
+
+/* ******************** header bild **************** */
+.header__bild{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 90vh; /* * da Nav ja noch mit auf ersten Seite zu sehen sein soll */
+    margin-bottom: 10vh;
+}
+
+.header__bild>article{
+    background-color: #fff;
+    width: 40vw;    /* * da Bild ja 60 vw der Seite hat */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.header__bild>article>p:nth-of-type(1){
+    font-size: 5rem;
+    letter-spacing: 2rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 10rem; /* * damit Überschrift runter kommt */
+}
+
+.header__bild>article>p:nth-of-type(2){
+    letter-spacing: 0.2rem;
+    margin-top: -20rem;  /* * damit Text hoch kommt */
+    width: 100%;
+    text-align: center;
+}
+
+.header__bild>article>p:nth-of-type(2)::before{
+    content: " ~ "   /* * die Welle geht auch mit Command + n  */
+}
+
+
+.header__bild>img{
+    width: 60vw;
+}
+
+
+/* ******************* header leiste mit nav ************** */
+
+#header--relative{
+    position: relative;
+}
+
+#header--fixed{
+    position: fixed;
+    top: 90vh;
+
+}
+.header__leisteMitNav{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+}
+
+.header__leisteMitNav>img{
+    height: 90%; /* * damit Bild kleiner wird */
+    padding-left: 1vw; /* * damit Bild vom Rand links weg ist */
+}
+
+.header__leisteMitNav>nav{
+    display: flex;
+    width: 70vw;   /* * damit text links über Bild Kante geht */
+    justify-content: space-around;
+}
+
+.header__leisteMitNav>nav>a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* **** footer   10vh höhersetzen, damit er nicht von 
+* fixed nav balken überdeckt wird */

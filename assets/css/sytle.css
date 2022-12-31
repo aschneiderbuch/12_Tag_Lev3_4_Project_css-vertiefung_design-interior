@@ -260,8 +260,7 @@ body {
 /* ***************** footer text und kontakt input *************** */
 
 .section__textUndInput--style {
-    background-color: red;
-    display: flex;
+     display: flex;
     justify-content: space-around;
     margin: 25vh auto;
 
@@ -272,7 +271,6 @@ body {
 
 
 .articel__footer__text{
-    background-color: blue;
     width: 32vw;
 }
 
@@ -288,18 +286,17 @@ body {
     line-height: 1.5;
 }
 
+/* *************** footer input Felder ********** */
+
 .articel__footer__input{
-    background-color: green;
     width: 32vw;
 }
 
 .articel__footer__input>label{
-    background-color: blue;
     font-size: 0.8rem;
 }
 
 .articel__footer__input>input:nth-of-type(1){ 
-    background-color: orange;
     width: 20vw;
     font-size: 0.8rem;
     color: gray;
@@ -312,7 +309,6 @@ body {
 }
 
 .articel__footer__input>input:nth-of-type(3){
-    background-color: aqua;
     width: 20vw;
     font-size: 1rem;
     color: gray;
@@ -320,8 +316,39 @@ body {
 }
 
 .articel__footer__input>input:nth-of-type(4){
-    background-color: yellowgreen;
     font-size: 0.8rem;
     padding: 0.4rem;
-    
+
+}
+
+/* ********************** footer nav ****************** */
+
+.article__footer__nav--style{
+    background-color: #1d2c30;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+}
+
+.article__footer__nav--style>p:nth-of-type(1){
+    background-color: blue;
+    width: 30vw;
+}
+
+.article__footer__nav--style>p:nth-of-type(2){
+    background-color: green;
+    width: 30vw;
+}
+
+.article__footer__nav--style>nav{
+    background-color: red;
+    width: 30vw;
+    text-align: center;
+}
+
+.article__footer__nav--style>nav>a{
+    text-decoration: none;
+    margin: auto 2vw;
 }

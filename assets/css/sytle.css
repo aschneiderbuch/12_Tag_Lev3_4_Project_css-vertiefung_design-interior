@@ -199,8 +199,8 @@ body {
 .textBereichÜberBilder__articel{
     background-color: green;
     width: 45vw;
-    margin-top: 15vh;
-    margin-bottom: 4vh;
+    margin-top: 25vh;
+    margin-bottom: 14vh;
     }
 
     .textBereichÜberBilder__articel>p:nth-of-type(1){
@@ -227,12 +227,22 @@ body {
 
 .dreiBilderReihen__Sechtion--style>article>img{
     width: 25vw;
+    border-radius: 0.5rem;
 }
 
 .video__articel--style{
     background-color: orange;
     width: 25vw;
-    
+    height: 30vh;
+    margin-top: 14vh;
+    margin-bottom: 25vh;
+}
+
+.video__articel--style>iframe{
+    width: 25vw;                /* * Video eingepasst schneidet unten was weg */
+    height: 30vh;
+    border-radius: 0.5rem;
+
 }
 
 

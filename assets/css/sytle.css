@@ -223,6 +223,14 @@ body {
 .dreiBilderReihen__Sechtion--style>article{
     background-color: blue;
    width: 25vw;
+   
+}
+
+.dreiBilderReihen__Sechtion--style>article>p{
+    background-color: orange;
+    text-align: center;
+    width: 23vw;
+    margin: auto;
 }
 
 .dreiBilderReihen__Sechtion--style>article>img{
@@ -248,5 +256,3 @@ body {
 
 
 
-/* **** footer   10vh höhersetzen, damit er nicht von 
-* fixed nav balken überdeckt wird */

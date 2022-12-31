@@ -262,7 +262,27 @@ body {
 .section__textUndInput--style {
     background-color: red;
     display: flex;
-    width: 90vw;
+    justify-content: space-around;
     margin: 25vh auto;
+
+    color: #fff;
 }
 
+/* *************** footer text ************ */
+
+
+.articel__footer__text{
+    background-color: blue;
+    width: 40vw;
+}
+
+.articel__footer__text>p:nth-of-type(1){
+    font-size: 2rem;
+}
+
+
+
+.articel__footer__input{
+    background-color: green;
+    width: 40vw;
+}

@@ -106,9 +106,11 @@ body {
 
 
 .header--fixed {
-    position: sticky;           /* !!! Sticky section darf nicht im header sein
+    position: sticky;
+    /* !!! Sticky section darf nicht im header sein
                                     !!! sonst geht es nicht  */
-    top: 0px;                   /* * Sticky abstand der dann beim scrollen sein soll  */
+    top: 0px;
+    /* * Sticky abstand der dann beim scrollen sein soll  */
     background-color: #2e2e2ed7;
 
 }
@@ -189,70 +191,78 @@ body {
 
 /* **************************** Bereicht mit weißem Hintergrund *********** */
 
-.section__hintergrund--weiß{
+.section__hintergrund--weiß {
     background-color: #fff;
     display: flex;
-    flex-direction: column;         /* * dreht alles um 90 Grad */
+    flex-direction: column;
+    /* * dreht alles um 90 Grad */
     align-items: center;
 }
 
-.textBereichÜberBilder__articel{
-    background-color: green;
+.textBereichÜberBilder__articel {
     width: 45vw;
     margin-top: 25vh;
     margin-bottom: 14vh;
-    }
+}
 
-    .textBereichÜberBilder__articel>p:nth-of-type(1){
-        text-align: center;
-        font-size: 2rem;
-    }
+.textBereichÜberBilder__articel>p:nth-of-type(1) {
+    text-align: center;
+    font-size: 2rem;
+}
 
-    .textBereichÜberBilder__articel>p:nth-of-type(2){
-        word-spacing: 0.5rem;
-    }
+.textBereichÜberBilder__articel>p:nth-of-type(2) {
+    word-spacing: 0.5rem;
+}
 
 
-.dreiBilderReihen__Sechtion--style{
-    background-color: red;
+.dreiBilderReihen__Sechtion--style {
     display: flex;
     justify-content: space-evenly;
     width: 100vw;
 }
 
-.dreiBilderReihen__Sechtion--style>article{
-    background-color: blue;
-   width: 25vw;
-   
+.dreiBilderReihen__Sechtion--style>article {
+    width: 25vw;
+
 }
 
-.dreiBilderReihen__Sechtion--style>article>p{
-    background-color: orange;
+.dreiBilderReihen__Sechtion--style>article>p {
     text-align: center;
     width: 23vw;
     margin: auto;
 }
 
-.dreiBilderReihen__Sechtion--style>article>img{
+.dreiBilderReihen__Sechtion--style>article>img {
     width: 25vw;
     border-radius: 0.5rem;
 }
 
-.video__articel--style{
-    background-color: orange;
+.video__articel--style {
     width: 25vw;
     height: 30vh;
     margin-top: 14vh;
     margin-bottom: 25vh;
 }
 
-.video__articel--style>iframe{
-    width: 25vw;                /* * Video eingepasst schneidet unten was weg */
+.video__articel--style>iframe {
+    width: 25vw;
+    /* * Video eingepasst schneidet unten was weg */
     height: 30vh;
     border-radius: 0.5rem;
 
 }
 
+/* ******************* footer ******************* */
+/* ******************* footer ******************* */
+/* ******************* footer ******************* */
 
 
+/* ***************** footer text und kontakt input *************** */
+
+.section__textUndInput--style {
+    background-color: red;
+    display: flex;
+    width: 90vw;
+    margin: 25vh auto;
+}
 

@@ -61,7 +61,7 @@ body {
     width: 100vw;
     height: 90vh;
     /* * da Nav ja noch mit auf ersten Seite zu sehen sein soll */
-    margin-bottom: 10vh;
+    margin-bottom: 0vh;
 }
 
 .header__bild>article {
@@ -110,7 +110,6 @@ body {
                                     !!! sonst geht es nicht  */
     top: 0px;                   /* * Sticky abstand der dann beim scrollen sein soll  */
     background-color: #2e2e2ed7;
-    border: 2px solid yellow;
 
 }
 

@@ -98,13 +98,13 @@ body{
 
 /* ******************* header leiste mit nav ************** */
 
-d#header--relative{
+#header--relative{
 position: relative;     /* * zusatz container wegen fixed */
 }
 
 #header--fixed{
-   position: sticky;
-    top: 0;
+   position: fixed;
+    top: 0px;
     background-color: #2e2e2ed7;
 
 }
@@ -158,6 +158,8 @@ position: relative;     /* * zusatz container wegen fixed */
     text-align: center;
     color: #fff;
     padding-bottom: 1rem;
+
+
 }
 
 .main__storyMitBild>article>p:nth-of-type(2){
@@ -174,9 +176,6 @@ position: relative;     /* * zusatz container wegen fixed */
     order: 0;
     width: 60vw;
 }
-
-
-
 
 
 

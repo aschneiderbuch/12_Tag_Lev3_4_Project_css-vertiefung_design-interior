@@ -187,10 +187,36 @@ body {
 }
 
 
+/* **************************** Bereicht mit weißem Hintergrund *********** */
 
+.section__hintergrund--weiß{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;         /* * dreht alles um 90 Grad */
+    align-items: center;
+}
 
+.dreiBilderReihen__Sechtion--style{
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
 
+.dreiBilderReihen__Sechtion--style>article{
+    background-color: blue;
+   width: 25vw;
+}
 
+.dreiBilderReihen__Sechtion--style>article>img{
+    width: 25vw;
+}
+
+.video__articel--style{
+    background-color: orange;
+    width: 25vw;
+    height: ;
+}
 
 
 

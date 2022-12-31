@@ -98,21 +98,22 @@ body{
 
 /* ******************* header leiste mit nav ************** */
 
-#header--relative{
-    position: relative;
+d#header--relative{
+position: relative;     /* * zusatz container wegen fixed */
 }
 
 #header--fixed{
-    position: fixed;
-    top: 90vh;
+   position: sticky;
+    top: 0;
+    background-color: #2e2e2ed7;
 
 }
 .header__leisteMitNav{
-    background-color: red;
     display: flex;
     justify-content: space-between;
     height: 10vh;
     align-items: center;
+    width: 100vw;         /* *  zusatzliche 100 wegen fixed  */
 }
 
 .header__leisteMitNav>img{
@@ -132,12 +133,47 @@ body{
 }
 
 
+/* ********************* main *********************** */
+/* ********************* main *********************** */
+/* ********************* main *********************** */
+
+
+/* ********************* main Story mit Bild ******** */
+
+.main__storyMitBild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.main__storyMitBild>article{
+    width: 40vw;
+    order: 1;
+    padding: 0 2vw;
+}
+
+.main__storyMitBild>article>p:nth-of-type(1){
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
+.main__storyMitBild>article>p:nth-of-type(2){
+    color: #fff;
+    word-spacing: 0.5rem;
+    
+}
 
 
 
+.main__storyMitBild>img{
 
 
-
+    order: 0;
+    width: 60vw;
+}
 
 
 

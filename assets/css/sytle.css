@@ -8,13 +8,13 @@ font-family: Work, sans-serif;
 
 */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 16px;
     max-width: 1400px;
     scroll-behavior: smooth;
@@ -24,7 +24,7 @@ html{
 /* ******************* font family ***************** */
 
 @font-face {
-    font-family: Lora ;
+    font-family: Lora;
     src: url("../fonts/Lora/Lora-Italic-VariableFont_wght.ttf");
 }
 
@@ -37,13 +37,14 @@ html{
 /* ******************** body *********************** */
 /* ******************** body *********************** */
 
-body{
-    font-family: Work, sans-serif;   /* * für alle Schriften */
+body {
+    font-family: Work, sans-serif;
+    /* * für alle Schriften */
     background-color: #2e2e2e;
 }
 
-.schriftart--lora{
-    font-family: Lora, sans-serif;   
+.schriftart--lora {
+    font-family: Lora, sans-serif;
 
 }
 
@@ -54,80 +55,89 @@ body{
 
 
 /* ******************** header bild **************** */
-.header__bild{
+.header__bild {
     display: flex;
     justify-content: center;
     width: 100vw;
-    height: 90vh; /* * da Nav ja noch mit auf ersten Seite zu sehen sein soll */
+    height: 90vh;
+    /* * da Nav ja noch mit auf ersten Seite zu sehen sein soll */
     margin-bottom: 10vh;
 }
 
-.header__bild>article{
+.header__bild>article {
     background-color: #fff;
-    width: 40vw;    /* * da Bild ja 60 vw der Seite hat */
+    width: 40vw;
+    /* * da Bild ja 60 vw der Seite hat */
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
-.header__bild>article>p:nth-of-type(1){
+.header__bild>article>p:nth-of-type(1) {
     font-size: 5rem;
     letter-spacing: 2rem;
     width: 100%;
     text-align: center;
-    margin-top: 10rem; /* * damit Überschrift runter kommt */
+    margin-top: 10rem;
+    /* * damit Überschrift runter kommt */
 }
 
-.header__bild>article>p:nth-of-type(2){
+.header__bild>article>p:nth-of-type(2) {
     letter-spacing: 0.2rem;
-    margin-top: -20rem;  /* * damit Text hoch kommt */
+    margin-top: -20rem;
+    /* * damit Text hoch kommt */
     width: 100%;
     text-align: center;
 }
 
-.header__bild>article>p:nth-of-type(2)::before{
-    content: " ~ "   /* * die Welle geht auch mit Command + n  */
+.header__bild>article>p:nth-of-type(2)::before {
+    content: " ~ "
+        /* * die Welle geht auch mit Command + n  */
 }
 
 
-.header__bild>img{
+.header__bild>img {
     width: 60vw;
 }
 
 
-/* ******************* header leiste mit nav ************** */
+/* ********************** Sticky nav *************** */
 
-#header--relative{
-position: relative;     /* * zusatz container wegen fixed */
-}
 
-#header--fixed{
-   position: fixed;
-    top: 0px;
+.header--fixed {
+    position: sticky;           /* !!! Sticky section darf nicht im header sein
+                                    !!! sonst geht es nicht  */
+    top: 0px;                   /* * Sticky abstand der dann beim scrollen sein soll  */
     background-color: #2e2e2ed7;
+    border: 2px solid yellow;
 
 }
-.header__leisteMitNav{
+
+.header__leisteMitNav {
     display: flex;
     justify-content: space-between;
     height: 10vh;
     align-items: center;
-    width: 100vw;         /* *  zusatzliche 100 wegen fixed  */
+    width: 100vw;
+    /* *  zusatzliche 100 wegen fixed  */
 }
 
-.header__leisteMitNav>img{
-    height: 90%; /* * damit Bild kleiner wird */
-    padding-left: 1vw; /* * damit Bild vom Rand links weg ist */
+.header__leisteMitNav>img {
+    height: 90%;
+    /* * damit Bild kleiner wird */
+    padding-left: 1vw;
+    /* * damit Bild vom Rand links weg ist */
 }
 
-.header__leisteMitNav>nav{
+.header__leisteMitNav>nav {
     display: flex;
-    width: 70vw;   /* * damit text links über Bild Kante geht */
+    width: 70vw;
+    /* * damit text links über Bild Kante geht */
     justify-content: space-around;
 }
 
-.header__leisteMitNav>nav>a{
+.header__leisteMitNav>nav>a {
     text-decoration: none;
     color: #fff;
 }
@@ -140,20 +150,20 @@ position: relative;     /* * zusatz container wegen fixed */
 
 /* ********************* main Story mit Bild ******** */
 
-.main__storyMitBild{
+.main__storyMitBild {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 5rem;
 }
 
-.main__storyMitBild>article{
+.main__storyMitBild>article {
     width: 40vw;
     order: 1;
     padding: 0 2vw;
 }
 
-.main__storyMitBild>article>p:nth-of-type(1){
+.main__storyMitBild>article>p:nth-of-type(1) {
     font-size: 2rem;
     text-align: center;
     color: #fff;
@@ -162,15 +172,15 @@ position: relative;     /* * zusatz container wegen fixed */
 
 }
 
-.main__storyMitBild>article>p:nth-of-type(2){
+.main__storyMitBild>article>p:nth-of-type(2) {
     color: #fff;
     word-spacing: 0.5rem;
-    
+
 }
 
 
 
-.main__storyMitBild>img{
+.main__storyMitBild>img {
 
 
     order: 0;
